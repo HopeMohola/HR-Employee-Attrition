@@ -79,7 +79,7 @@ The goal is to measure and visualize insurance agent performance across differen
   - State Heat Map  
   - Demographic Slicer (Age, Vendor)  
 
-- **Data Dictionary** (Excel file)  
+- **Data Dictionary** (PDF file)  
 - **README file** (this document)
 
 ## Expected Insights
