@@ -66,15 +66,14 @@ The goal is to measure and visualize employee performance and attrition drivers 
 
 ## Deliverables
 
-- Excel Dashboard with:
+Excel Dashboard with:
 - KPI Cards (Attrition Rate, Retention Rate, Average Income, Avg Tenure)
 - Attrition Breakdown Charts (by Department, Job Role, Gender, Age)
 - Salary vs Attrition Scatter Plot
 - Heat Map (Attrition by DistanceFromHome, EducationField, or Department)
 - Slicers for Demographics (Age, Gender, Education, JobRole)
-
-- Data Dictionary (PDF)
-- README file (this document)
+Data Dictionary (PDF)
+README file (this document)
 
 ## Expected Insights
 - Which departments and roles have the highest attrition
