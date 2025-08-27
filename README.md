@@ -91,4 +91,4 @@ Prepared by: Motshabi Hope Mohola
 Email: motshabimohola@gmail.com
 
 ##Comments
-Hope: I would really appreciate any feedback you might have, good or bad. I am open to constructive criticism but I am hoping that you enjoy working with this dataset just as I did. It was both challenging and fun, and I hope the visuals are just as insightful as they
+Hope: I would really appreciate any feedback you might have, good or bad. I am open to constructive criticism but I am hoping that you enjoy working with this dataset just as I did. It was both challenging and fun, and I hope the visuals are just as insightful as they are engaging. Leave Your Comment. Check out more of my work!
