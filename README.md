@@ -66,13 +66,47 @@ The goal is to measure and visualize employee performance and attrition drivers 
 
 ## Deliverables
 
-Excel Dashboard with:
-- KPI Cards (Attrition Rate, Retention Rate, Average Income, Avg Tenure)
-- Attrition Breakdown Charts (by Department, Job Role, Gender, Age)
-- Salary vs Attrition Scatter Plot
-- Heat Map (Attrition by DistanceFromHome, EducationField, or Department)
-- Slicers for Demographics (Age, Gender, Education, JobRole)
-Data Dictionary (PDF)
+Attrition Overview:
+- KPIs: % Attrition, Total Employees, Average Monthly Income, Average Years at Company.
+
+Demographics:
+- Age Distribution → Histogram or column chart.
+- Gender Breakdown → Pie or donut chart.
+- Marital Status vs. Attrition → Stacked bar chart.
+
+Job & Department Insights:
+- Attrition by Department → Bar/column chart.
+- Attrition by JobRole → Horizontal bar chart.
+- Attrition by JobLevel → Clustered column chart.
+
+Work & Compensation:
+- Monthly Income by JobLevel/Department → Box plot (via Pivot + stacked column).
+- Attrition vs. Overtime → 100% stacked bar.
+- BusinessTravel frequency & Attrition → Clustered column chart.
+
+Satisfaction & Engagement:
+- Environment Satisfaction vs. Attrition → Heatmap-style PivotTable or clustered column.
+- Job Satisfaction, WorkLifeBalance, Relationship Satisfaction → Multi-series column chart.
+
+Career Progression:
+- YearsAtCompany vs. Attrition → Line chart.
+- YearsSinceLastPromotion → Column chart (highlighting high attrition bands).
+- NumCompaniesWorked → Bar chart.
+
+
+Slicers:
+- Department
+- JobRole
+- Gender
+- MaritalStatus
+- OverTime
+- BusinessTravel
+- EducationField
+- Attrition
+
+Timeline slicer:
+- YearsAtCompany
+- YearsSinceLastPromotion.
 README file (this document)
 
 ## Expected Insights
