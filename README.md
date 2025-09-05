@@ -42,15 +42,15 @@ The goal is to measure and visualize employee performance and attrition drivers 
 
 ## Key KPIs
 Top of the dashboard as cards:
-- KPI	Calculation / Metric	Notes
-- Total Employees	COUNT(EmployeeNumber)	Overall headcount
-- Attrition Rate	COUNTIF(Attrition="Yes") / COUNT(EmployeeNumber)	Show as %
-- Average Age	AVERAGE(Age)	Can filter by department, role, etc.
-- Average Monthly Income	AVERAGE(MonthlyIncome)	Can compare across departments
-- Overtime %	COUNTIF(OverTime="Yes") / COUNT(EmployeeNumber)	Employee engagement indicator
-- Average Years at Company	AVERAGE(YearsAtCompany)	Useful for retention insights
-- Training Count / Employee	AVERAGE(TrainingTimesLastYear)	Training engagement metric
-- Performance Rating Avg	AVERAGE(PerformanceRating)	Optional KPI for performance monitoring
+- Total Employees :	Overall headcount
+- Attrition Rate
+- Average Age
+- Average Monthly Income
+- Overtime
+- Average Years at Company
+- Average Training Times For The Year
+- Average Performance Rating
+  
 ## Charts / Visualizations
 Below the KPI cards:
 1. Attrition by Department
