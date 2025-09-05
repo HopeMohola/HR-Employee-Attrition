@@ -40,6 +40,47 @@ The goal is to measure and visualize employee performance and attrition drivers 
 - Years with Current Manager
 - Training Times Last Year
 
+## Key KPIs
+Top of the dashboard as cards:
+- KPI	Calculation / Metric	Notes
+- Total Employees	COUNT(EmployeeNumber)	Overall headcount
+- Attrition Rate	COUNTIF(Attrition="Yes") / COUNT(EmployeeNumber)	Show as %
+- Average Age	AVERAGE(Age)	Can filter by department, role, etc.
+- Average Monthly Income	AVERAGE(MonthlyIncome)	Can compare across departments
+- Overtime %	COUNTIF(OverTime="Yes") / COUNT(EmployeeNumber)	Employee engagement indicator
+- Average Years at Company	AVERAGE(YearsAtCompany)	Useful for retention insights
+- Training Count / Employee	AVERAGE(TrainingTimesLastYear)	Training engagement metric
+- Performance Rating Avg	AVERAGE(PerformanceRating)	Optional KPI for performance monitoring
+## Charts / Visualizations
+Below the KPI cards:
+1. Attrition by Department
+Chart type: Clustered column
+Axis: Department | Values: Count of Attrition = Yes vs No
+2. Age Distribution
+Chart type: Histogram
+Filter by department or role
+3. Monthly Income by Job Role
+Chart type: Box plot or bar chart
+Highlights salary spread by roles
+4. Overtime vs Attrition
+Chart type: Stacked column (OverTime = Yes/No, grouped by Attrition)
+5. Years at Company vs Performance Rating
+Chart type: Scatter plot
+Shows correlation between tenure and performance
+6. Work-Life Balance Satisfaction
+Chart type: Pie chart or bar chart
+Can segment by department or role
+
+## Slicers
+Slicer	Purpose
+- Department	Filter dashboard by department
+- Job Role	View KPIs by specific roles
+- Gender	Compare metrics for males vs females
+- Marital Status	Analyze attrition/training/satisfaction
+- Business Travel	See trends based on travel frequency
+- OverTime	Compare performance/attrition for OT employees
+- Education Field	Segment satisfaction, income, or attrition
+
 
 ## Features in the Dataset
 - Attrition – Whether the employee left (Yes/No)
