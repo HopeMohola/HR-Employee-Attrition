@@ -7,7 +7,7 @@ The goal is to measure and visualize employee performance and attrition drivers 
 *Records*: Employee-level HR data (1,470 records)
 *Scope*: Includes demographics, job role, compensation, satisfaction scores, work-life balance, and attrition status.
 
-## Key Metrics for Analysis
+## Key Metrics for Analysis(Pivot Tables)
 1. Attrition & Retention
 - Attrition Count & Rate
 - Retention Rate
