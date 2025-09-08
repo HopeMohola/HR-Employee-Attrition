@@ -71,16 +71,6 @@ Shows correlation between tenure and performance
 Chart type: Pie chart or bar chart
 Can segment by department or role
 
-## Slicers
-Slicer	Purpose
-- Department	Filter dashboard by department
-- Job Role	View KPIs by specific roles
-- Gender	Compare metrics for males vs females
-- Marital Status	Analyze attrition/training/satisfaction
-- Business Travel	See trends based on travel frequency
-- OverTime	Compare performance/attrition for OT employees
-- Education Field	Segment satisfaction, income, or attrition
-
 
 ## Features in the Dataset
 - Attrition – Whether the employee left (Yes/No)
