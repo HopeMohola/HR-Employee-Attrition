@@ -8,38 +8,6 @@ The goal is to measure and visualize employee performance and attrition drivers 
 *Scope*: Includes demographics, job role, compensation, satisfaction scores, work-life balance, and attrition status.
 
 ## Key Metrics for Analysis(Pivot Tables)
-1. Attrition & Retention
-- Attrition Count & Rate
-- Retention Rate
-- Churn by Job Role, Age, Department
-
-2. Demographics & Diversity
-- Age Distribution
-- Gender Breakdown
-- Education Level
-- Marital Status Impact on Attrition
-
-3. Job & Career
-- Job Role vs Attrition
-- Years at Company & Promotion Waiting Time
-- Career Growth Trends
-
-4. Compensation & Benefits
-- Salary Levels (MonthlyIncome, HourlyRate)
-- Impact of Compensation on Attrition
-- Overtime vs Attrition
-
-5. Work Environment & Satisfaction
-- Job Satisfaction (1–4 scale)
-- Work-Life Balance Scores
-- Environment Satisfaction
-- Relationship Satisfaction
-
-6. Performance & Tenure
-- Performance Rating vs Attrition
-- Years with Current Manager
-- Training Times Last Year
-
 ## Key KPIs
 Top of the dashboard as cards:
 - Total Employees :	Overall headcount
@@ -49,27 +17,18 @@ Top of the dashboard as cards:
 - Overtime
 - Average Years at Company
 - Average Training Times For The Year
-- Average Performance Rating
   
 ## Charts / Visualizations
 Below the KPI cards:
 1. Attrition by Department
-Chart type: Clustered column
-Axis: Department | Values: Count of Attrition = Yes vs No
 2. Age Distribution
-Chart type: Histogram
-Filter by department or role
-3. Monthly Income by Job Role
-Chart type: Box plot or bar chart
-Highlights salary spread by roles
-4. Overtime vs Attrition
-Chart type: Stacked column (OverTime = Yes/No, grouped by Attrition)
-5. Years at Company vs Performance Rating
-Chart type: Scatter plot
-Shows correlation between tenure and performance
-6. Work-Life Balance Satisfaction
-Chart type: Pie chart or bar chart
-Can segment by department or role
+3. Gender by AgeGroup
+4. Attrition by AgeGroup
+5. Overtime vs Attrition
+6. Attrition by Education
+7. Years at Company vs Performance Rating
+8. Work-Life Balance Satisfaction
+
 
 
 ## Features in the Dataset
